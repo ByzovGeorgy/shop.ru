@@ -1,0 +1,1 @@
+<?php include ROOT . "/views/site/index.php";

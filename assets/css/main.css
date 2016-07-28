@@ -1,0 +1,56 @@
+#header {
+    /*height: 200px;*/
+}
+
+.logo {
+    padding: 20px;
+}
+
+.product {
+    border-width: 1px;
+    border-color: rgba(15, 15, 15, 0.3);
+    border-style: solid;
+}
+
+.product-info {
+    height: 70px;
+    text-align: center;
+}
+
+.product-info > h4 {
+
+}
+
+.product-price {
+    font-size: 150%;
+    text-align: center;
+    width: 100%;
+}
+
+.product-price > p {
+    display: inline-block;
+}
+
+.product-price > div > span {
+    font-size: 150%;
+}
+
+.product-price > div {
+    float: right;
+}
+
+a {
+    text-align: center;
+}
+
+.addInCart {
+
+}
+
+.login-form > form > input , .signup-form > form > input {
+    width: 100%;
+}
+
+.btn-width-max {
+    width: 100%;
+}
