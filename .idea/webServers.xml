@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="223cf313-4815-4f92-b053-3c65fa03c18e" name="ftp-oneshop.mcdir.ru" url="http://a170425.ftp.mchost.ru">
+        <fileTransfer host="a170425.ftp.mchost.ru" port="21" rootFolder="/httpdocs" password="df93dfd0df98df98dffddfc8dff3dff2dfd9df9d" username="a170425_oneshop">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

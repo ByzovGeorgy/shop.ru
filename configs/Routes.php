@@ -17,6 +17,16 @@ class Routes
 
     public static function getRoutes()
     {
-        return self::$routes;
+        //return self::$routes;
+        return self::addStartAndEndRegexpSymbol(self::$routes);
+    }
+
+    private static function addStartAndEndRegexpSymbol(array $routes)
+    {
+        $newRoutes = array();
+        foreach ($routes as $uriPattern => $path) {
+            $newRoutes['\A' . $uriPattern . '\Z'] = $path;
+        }
+        return $newRoutes;
     }
 }

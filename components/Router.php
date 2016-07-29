@@ -36,6 +36,9 @@ class Router
     private function getRequestURI()
     {
         $uri = $_SERVER['REQUEST_URI'];
+        if (substr($uri, -1) != '/') {
+            $uri .= '/';
+        }
         if ($_SERVER['SERVER_NAME'] == 'localhost') {
             return substr($uri, strpos($uri, '/', 1));
         }
